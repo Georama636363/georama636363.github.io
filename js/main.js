@@ -113,6 +113,11 @@
         items: 1
     });
 
+    //preloader
+    $(document).ready(function(){
+        $(".preloader").fadeOut();
+      })
+
     //Scroll Reveal
     ScrollReveal({ 
         reset:true,
